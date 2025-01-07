@@ -49,11 +49,11 @@ return [
         "default_environment" => "product", // 默认使用的环境配置
         "product" => [
             "adapter" => "mysql", // 使用mysql 配置
-            "host" => getenv("DB_HOST", '127.0.0.1'),
-            "name" => getenv("DB_NAME", ''),
-            "user" => getenv("DB_USER", ''),
-            "pass" => getenv("DB_PASSWORD", ''),
-            "port" => getenv("DB_PORT", '3306'),
+            "host" => env("DB_HOST", '127.0.0.1'),
+            "name" => env("DB_NAME", ''),
+            "user" => env("DB_USER", ''),
+            "pass" => env("DB_PASSWORD", ''),
+            "port" => env("DB_PORT", '3306'),
             "charset" => "utf8"
         ]
     ]
