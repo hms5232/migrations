@@ -10,8 +10,8 @@ class Install
      */
     protected static $pathRelation = array (
   'config/plugin/webman-micro/migrations' => 'config/plugin/webman-micro/migrations',
-        'database/migrations/index.html' => 'database/migrations/index.html',
-        'database/seeders/index.html' => 'database/seeders/index.html',
+        'database/migrations/.gitkeep' => 'database/migrations/.gitkeep',
+        'database/seeders/.gitkeep' => 'database/seeders/.gitkeep',
 );
 
     /**
